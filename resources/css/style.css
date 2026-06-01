@@ -1,0 +1,67 @@
+:root {
+    --bl: rgb(0, 66, 163);
+    --lbl: rgb(5, 97, 199);
+    --black: rgb(27, 27, 27);
+    --wh: rgb(245, 245, 245);
+}
+
+body {
+    background-color: var(--lbl);
+}
+
+/* Navbar */
+.navbar {
+    height: 110px;
+    background: rgba(255, 255, 255, 0.1); /* trasparenza */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    color: white;
+    z-index: 1000;
+}
+.nav-link{
+    color: var(--wh);
+    font-weight: bold;
+}
+
+.logo {
+    height: 100px;
+}
+
+/* Header */
+header{
+    height: 100vh;
+}
+.header-video {
+    width: 100%;
+    
+}
+
+h1{
+    font-size: 200px;
+    color: var(--lbl);
+    text-shadow: 2px 2px 4px yellow;
+    -webkit-text-stroke: 2px yellow ;
+}
+
+.box{
+    border: 2px solid var(--bl);
+    color: var(--wh);
+    line-height: 50px;
+}
+
+/* Prenota */
+.book-img{
+    width: 100%;
+}
+form{
+    color:var(--wh);
+    background-color: var(--bl);
+    padding: 20px;
+    border: 2px solid yellow;
+    border-radius: 30px;
+}
+
+.margin{
+    margin-top: 150px;
+}

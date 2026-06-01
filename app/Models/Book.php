@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Attributes\Fillable;
+use Illuminate\Database\Eloquent\Model;
+
+class book extends Model
+{
+    protected $fillable = [
+        "name","surname","mail","date",
+    ];
+}
