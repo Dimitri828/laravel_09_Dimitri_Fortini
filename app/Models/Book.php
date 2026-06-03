@@ -5,9 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 
-class book extends Model
+class Book extends Model
 {
     protected $fillable = [
-        "name","surname","mail","date",
+        "name","surname","mail","date","img",
     ];
 }

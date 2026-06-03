@@ -7,11 +7,12 @@
            @foreach($books as $book)
             <div class="col-12 col-md-4 my-5">
              <x-card
-             :name="$book->name"
+             :$book
+             {{-- :name="$book->name"
              :surname="$book->surname"
              :mail="$book->mail"
              :date="$book->date"
-             
+              --}}
              >
             
             </x-card>   
